@@ -1,49 +1,44 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Dog Adoption Form</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
-	<form>
-	<!-- Name -->
+    <form>
 
-	<lable for="name">Name</lable><br>
-<input type="text" id="name" placeholder="Nmae"><br><br>
+        <!-- Name -->
+        <label for="name">Name</label><br>
+        <input type="text" id="name" placeholder="Name"><br><br>
 
-	<!-- PhoneNumber -->
+        <!-- Phone Number -->
+        <label for="phone">Phone Number</label><br>
+        <input type="text" id="phone" placeholder="Phone Number"><br><br>
 
-	<lable for="phone">PhoneNumber</lable><br>
-	<input type="text" id="phone" placeholder="phone"><br><br>
+        <!-- Address -->
+        <label for="address">Address</label><br>
+        <input type="text" id="address" placeholder="Address"><br><br>
 
-	<!-- Address -->
-	<label for="Address">Address</label><br>
-	<input type="text" id="address" placeholder="address"><br><br>
+        <!-- Checkbox -->
+        <label>
+            <input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+            Have you ever lived with a Dog before?
+        </label>
+        <br><br>
 
-	<!-- chechbox -->
-	<label>
-        <input type="checkbox" id="checkbox" value="Have You ever lived with a Dog before?">	Have you ever lived with a Dog before?	
-	      </label> <br><br>
+        <!-- Multi Select -->
+        <label for="multiSelect">Please select your preferred breeds</label><br>
+        <select id="multiSelect" multiple>
+            <option value="Labrador">Labrador</option>
+            <option value="German Shepherd">German Shepherd</option>
+            <option value="Beagle">Beagle</option>
+        </select>
+        <br><br>
 
-	<!-- MultiSelect -->
-	<label for="multiselect">Please select your perferred breeds</label><br>
-	<select id="multiselect" multiple>
-		<option value="Labrador"></option>
-		<option value="German" Shepherd>German Shepherd</option>
-		<option value="Beagle">Beagle</option>
-		</select>
-	<br><br>
+        <!-- Submit -->
+        <input type="submit" value="Submit">
 
-	<!-- Submit -->
-	<input tpye="submit" value="Submit">
-	</form>
-	
+    </form>
+
 </body>
-
 </html>
